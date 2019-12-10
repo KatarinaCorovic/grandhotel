@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-	/*width:1000px;*/
+	width:1000px;
 	margin:0 auto;
 	overflow: hidden;
 	text-align:center;
@@ -24,14 +24,14 @@ header {
 	text-align: center;
 }
 
-header .logo{
+header.logo{
 	display:block;
 	margin-left:auto;
-	margin-right: auto;
+	margin-right:auto;
 	text-align: center;
 
 }
- img.telephone{
+ img .telephone{
 	float:right;
 	margin-right:-20px;
 	margin-top: 0px;	
@@ -91,7 +91,7 @@ header .telephone a:hover{
 	width:90%;
 	margin: 20px auto 0;
 	height:500px;
-	background-image: url(../images/first-page.webp);
+	background-image: url(../images/first-page.jpg);
 	background-size: cover;
 	background-position: center;
 
@@ -153,7 +153,7 @@ footer{
 
 
 
-	/*******************************************************      PAGE 2   ****************************************************/
+	/*************************************************      ABOUT HOTEL     ****************************************************/
 
 
 
@@ -166,7 +166,7 @@ footer{
     margin-top: 20px;	
     margin-left: 85px;
 	height:500px;
-	background-image: url(../images/chandelier.webp);
+	background-image: url(../images/chandelier.jpg);
 	background-size: cover;
 	background-position: left;
 	float:left;
@@ -179,7 +179,7 @@ footer{
 	margin:0 auto;
 	margin-top:20px;
 	height:500px;
-	background-image: url(../images/hallway.webp);
+	background-image: url(../images/hallway.jpg);
 	background-size: cover;
 	background-position: center;
 	float:left;
@@ -187,7 +187,7 @@ footer{
 
 }
 
-#text{
+.text{
     width:28%;
 	height:500px;
     border:0.5px solid #4f4f4f;
@@ -197,37 +197,33 @@ footer{
 
 }
 
-#text h2{
+.text h2{
 	color:#4f4f4f;
 	text-align: center;
 }
 
-#text p{
+.text p{
 	color:#4f4f4f;
 	padding:30px;
 
 } 
 
-#text h3{
+
+.discover {
 	color:#eabe23;
-	position:relative;
-	left:20px;
+	margin-top: 20px;
+	line-height: 50px;
+	margin-left: 300px;
+	font-size:18px;
+	font-weight: bold;
+
 
 }
 
-#arrow1{
-	background-image: url(../images/arrow.png);
-	background-repeat: no-repeat;
-	background position:right;
-	
+#discover1{
+	margin-left: 180px;
 }
 
-
-
-
-#arrow{
-	margin-top: -15px;
-}
 
 
 .main ul{
@@ -247,7 +243,7 @@ footer{
 
 
 
-/**************************************           PAGE 3          *******************************************************/
+/**************************************       ROOMS & SUITS         *******************************************************/
 
 
 
@@ -257,7 +253,7 @@ footer{
 	margin-top:20px
 	width:30%;
 	height:126px;
-	background-image: url(../images/room1.webp);
+	background-image: url(../images/room1.jpg);
 	float:left;
 	background-size: cover;
 	background-position: left;
@@ -268,7 +264,7 @@ footer{
 	margin-top:20px
 	width:30%;
 	height:126px;
-	background-image: url(../images/room2.webp);
+	background-image: url(../images/room2.jpg);
 	float:left;
 	background-size: cover;
 	background-position: left;
@@ -281,7 +277,7 @@ footer{
 	margin-top:20px
 	width:30%;
 	height:126px;
-	background-image: url(../images/room3.webp);
+	background-image: url(../images/room3.jpg);
 	float:left;
 	background-size: cover;
 	background-position: left;
@@ -294,7 +290,7 @@ footer{
 	margin-top:20px
 	width:30%;
 	height:126px;
-	background-image: url(../images/room4.webp);
+	background-image: url(../images/room4.jpg);
 	float:left;
 	background-size: cover;
 	background-position: center;
@@ -307,7 +303,7 @@ footer{
 	margin-top:20px
 	width:30%;
 	height:126px;
-	background-image: url(../images/room5.webp);
+	background-image: url(../images/room5.jpg);
 	float:left;
 	background-size: cover;
 	background-position: center;
@@ -321,7 +317,7 @@ footer{
 	margin-top:20px
 	width:30%;
 	height:126px;
-	background-image: url(../images/room6.webp);
+	background-image: url(../images/room6.jpg);
 	float:left;
 	background-size: cover;
 	background-position: center;
@@ -330,7 +326,7 @@ footer{
 #room7{
 	width:30%;
 	height:126px;
-	background-image: url(../images/room7.webp);
+	background-image: url(../images/room7.jpg);
 	float:left;
 	background-size: cover;
 }
@@ -344,5 +340,53 @@ footer{
 }
 
 
-/********************************************          PAGE4              *********************************************/
+/********************************************          RESTAURANT             *********************************************/
 
+#restaurant{
+	width:45%;
+	height:500px;
+	background-image: url(../images/restaurant.jpg);
+	background-size: cover;
+	background-position: left;
+	float:left;
+	margin-top: 20px;
+	margin-left:85px;
+
+} 
+
+#text1{
+	width:40%;
+}
+
+#text1 p{
+	padding:30px 70px;	
+}
+
+
+/********************************************   PASTRY SHOP   ***********************************************/
+
+#cakepicture1{
+	width:28%;
+    margin-top: 20px;	
+    margin-left: 85px;
+	height:500px;
+	background-image: url(../images/cake1.jpg);
+	background-size: cover;
+	background-position: left;
+	float:left;
+
+
+}
+
+/*#cakepicture2{
+	width:28%;
+	margin-top: 20px;
+	height:500px;
+	background-image: url(../images/cake2.jpg);
+	background-size: cover;
+	background-position: right;
+	float:left;
+
+
+
+}*/
