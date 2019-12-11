@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	padding:0;
+	text-align: center;
 }
 
 .container{
@@ -24,26 +25,27 @@ header {
 	text-align: center;
 }
 
-header.logo{
+.logo{
 	display:block;
-	margin-left:auto;
-	margin-right:auto;
+	margin:0, auto;
+	margin-right:30px;
 	text-align: center;
 
+
 }
- img .telephone{
+ .telephone{
+	/*margin-right:-310px;*/
+	margin-top: 30px;	
 	float:right;
-	margin-right:-20px;
-	margin-top: 0px;	
 
 }
 
-header .telephone a{
+ .telephone a{
 	color:red;
 }
 
 
-header .telephone a:hover{
+ .telephone a:hover{
 	background-color:red;
 }
 
@@ -156,10 +158,6 @@ footer{
 	/*************************************************      ABOUT HOTEL     ****************************************************/
 
 
-
-
-
-
 #picture1{
 
     width:28%;
@@ -216,6 +214,7 @@ footer{
 	margin-left: 300px;
 	font-size:18px;
 	font-weight: bold;
+	float:left;
 
 
 }
