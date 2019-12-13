@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-	width:1000px;
+	width:1520px;
 	margin:0 auto;
 	overflow: hidden;
 	text-align:center;
@@ -26,27 +26,28 @@ header {
 }
 
 .logo{
-	display:block;
-	margin:0, auto;
-	margin-right:30px;
+	display:inline-block;
+	margin: 0 auto;
+	margin-left:-35px;
 	text-align: center;
 
 
 }
- .telephone{
-	/*margin-right:-310px;*/
-	margin-top: 30px;	
+.telephone{
+	margin-right: 23px;
+	margin-top: 35px;	
 	float:right;
 
 }
 
- .telephone a{
+.telephone a{
 	color:red;
 }
 
 
- .telephone a:hover{
+.telephone a:hover{
 	background-color:red;
+
 }
 
 
@@ -54,6 +55,7 @@ header {
 
 .menu{
 	margin: 0 auto;
+	text-align: center;
 
 }
 
@@ -75,9 +77,10 @@ header {
 	color:#4f4f4f;
 	text-align:center;
 	text-decoration: none;
-	padding:11px 31px;
+	padding:11px 30px;
 	height:40px;
 	line-height:40px;
+
 }
 
 .menu nav ul li a:hover{
@@ -100,10 +103,10 @@ header {
 }
 
 .main ul {
-	margin: 0;
-	padding: 0;
+	margin:0;
+	padding:0;
 	float:right;
-	margin-top:-250px;
+	margin-top:-300px;
 	margin-right: 20px;
 
 }
@@ -122,7 +125,7 @@ footer{
 	margin:0;
 	padding:0;
 	background-color: white;
-	}
+}
 
 
 .boxed {
@@ -155,14 +158,14 @@ footer{
 
 
 
-	/*************************************************      ABOUT HOTEL     ****************************************************/
+/*************************************************      ABOUT HOTEL     ****************************************************/
 
 
 #picture1{
 
-    width:28%;
-    margin-top: 20px;	
-    margin-left: 85px;
+	width:28%;
+	margin-top:20px;	
+	margin-left: 85px;
 	height:500px;
 	background-image: url(../images/chandelier.jpg);
 	background-size: cover;
@@ -186,9 +189,9 @@ footer{
 }
 
 .text{
-    width:28%;
+	width:28%;
 	height:500px;
-    border:0.5px solid #4f4f4f;
+	border:0.5px solid #4f4f4f;
 	float:left;
 	margin-top:20px;
 	margin-left:30px;
@@ -219,7 +222,7 @@ footer{
 
 }
 
-#discover1{
+#discover1, #discover2{
 	margin-left: 180px;
 }
 
@@ -229,7 +232,7 @@ footer{
 	margin: 0;
 	padding: 0;
 	float:right;
-	margin-top:200px;
+	margin-top:-180px;
 	margin-right: 20px;
 
 
@@ -246,10 +249,10 @@ footer{
 
 
 
-
 #room1{
 	display:block;
-	margin-top:20px
+	margin-top:20px;
+	margin-left:85px;
 	width:30%;
 	height:126px;
 	background-image: url(../images/room1.jpg);
@@ -260,20 +263,22 @@ footer{
 }
 #room2{
 	display:block;
-	margin-top:20px
+	margin-top:10px;
+	margin-left:85px;
 	width:30%;
 	height:126px;
 	background-image: url(../images/room2.jpg);
 	float:left;
 	background-size: cover;
-	background-position: left;
+	background-position: left ;
 }
 
 
 
 #room3{
 	display:block;
-	margin-top:20px
+	margin-top:10px;
+	margin-left:85px;
 	width:30%;
 	height:126px;
 	background-image: url(../images/room3.jpg);
@@ -285,8 +290,8 @@ footer{
 
 #room4{
 	display:block;
-	margin:0 auto;
-	margin-top:20px
+	/*margin:0 auto;*/
+	margin-top:20px;
 	width:30%;
 	height:126px;
 	background-image: url(../images/room4.jpg);
@@ -296,10 +301,16 @@ footer{
 }
 
 
+#rooms{
+	width:30%;
+	height:126px;
+	margin:0 auto;
+}
+
 #room5{
 	display:block;
-	margin:0 auto;
-	margin-top:20px
+	/*margin:0 auto;*/
+	margin-top:20px;
 	width:30%;
 	height:126px;
 	background-image: url(../images/room5.jpg);
@@ -307,35 +318,39 @@ footer{
 	background-size: cover;
 	background-position: center;
 }
-  
+
 
 
 #room6{
 	display:block;
 	margin:0 auto;
-	margin-top:20px
+	margin-top:20px;
 	width:30%;
 	height:126px;
 	background-image: url(../images/room6.jpg);
-	float:left;
+	/*float:right;*/
 	background-size: cover;
-	background-position: center;
+	background-position: right;
 }
 
 #room7{
 	width:30%;
 	height:126px;
+	margin-top: 10px;
 	background-image: url(../images/room7.jpg);
-	float:left;
+	/*float:left;*/
 	background-size: cover;
+	background-position: right;
 }
 
 #room8{
 	width:30%;
 	height:126px;
+	margin-top: 10px;
 	background-image: url(../images/room8.jpg);
-	float:left;
+	/*float:left;*/
 	background-size: cover;
+	background-position: right bottom;
 }
 
 
@@ -354,7 +369,7 @@ footer{
 } 
 
 #text1{
-	width:40%;
+	width:42%;
 }
 
 #text1 p{
@@ -366,8 +381,8 @@ footer{
 
 #cakepicture1{
 	width:28%;
-    margin-top: 20px;	
-    margin-left: 85px;
+	margin-top: 20px;	
+	margin-left: 85px;
 	height:500px;
 	background-image: url(../images/cake1.jpg);
 	background-size: cover;
@@ -377,15 +392,121 @@ footer{
 
 }
 
-/*#cakepicture2{
+#text1{
+	width:29%;
+	background-position: center;
+
+}
+
+#cakepicture2{
 	width:28%;
 	margin-top: 20px;
 	height:500px;
 	background-image: url(../images/cake2.jpg);
 	background-size: cover;
 	background-position: right;
+	float:right;
+	margin-right:80px;
+
+
+}
+
+
+
+/********************************* SPA & WELLNESS  *****************/
+
+#spa{
+	width:43%;
+	margin-top:20px;
+	margin-left: 85px;
+	height:350px;
+	background-image: url(../images/spa.jpg);
+	background-size: cover;
+	background-position: left;
+	float:left;
+}
+
+#bathroom{
+	width:44%;
+	margin-top:20px;
+	margin-left: 30px;
+	height:350px;
+	background-image: url(../images/bathroom.jpg);
+	background-size: cover;
+	background-position: right;
+	float:left;
+
+}
+
+
+#text2{
+	position:relative;
+	height:150px;
+	width:1351px;
+	margin-left:85px;
+}
+
+#text2 h1{
+	position:absolute;
+	top:-31px;
+	left:18px;
+	font-size: 30px;
+	color:#4f4f4f;
+	font-family: 'Baskervville', serif;	
+}
+
+#text2 h1 span{
+	color:#eabe23;
+	font-size:65px;
+}
+
+#text2 p{
+	padding-top: 16px;
+	padding-left:290px;
+}
+
+
+/************************ WEDDINGS & RECEPTIONS *******************/
+
+
+#wedding{
+	width:44%;
+	margin-top:20px;
+	margin-left: 30px;
+	height:500px;
+	background-image: url(../images/wedding.jpg);
+	background-size: cover;
+	background-position: right;
 	float:left;
 
 
+}
 
-}*/
+#text3{
+	position:relative;
+	width:42%;
+	margin-left: 85px;
+
+}
+
+#text3 img{
+	position:absolute;
+	top:0;
+	left:0;
+	
+}
+
+#text3 h1{
+	font-size: 30px;
+	color:#4f4f4f;
+	font-family: 'Baskervville', serif;	
+}
+
+#text3 h1 span{
+	color:#eabe23;
+	font-size:65px;
+}
+
+#text3 p{
+	padding-top: 70px;
+}
