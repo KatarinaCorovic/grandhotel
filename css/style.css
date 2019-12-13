@@ -2,13 +2,15 @@ body{
 	margin:0;
 	padding:0;
 	text-align: center;
+	margin:0 auto;
 }
 
 .container{
-	width:1520px;
+	width:960px;
 	margin:0 auto;
 	overflow: hidden;
 	text-align:center;
+	/*border:1px solid red;*/
 }
 
 .one-third{
@@ -16,6 +18,7 @@ body{
 	float:left;
 	/*border:1px solid red;*/
 	box-sizing: border-box;
+
 }
 /**************************************************** HEADER **********************************************/
 
@@ -54,8 +57,9 @@ header {
 /********************************************  MENU  ******************************************/
 
 .menu{
-	margin: 0 auto;
-	text-align: center;
+	margin:0,auto;
+	text-align:center;
+	/*border:1px solid red;*/
 
 }
 
@@ -67,6 +71,7 @@ header {
 .menu nav ul li{
 	list-style: none;
 	float:left;
+
 }
 
 
