@@ -19,13 +19,21 @@ body{
 	/*border:1px solid red;*/
 	box-sizing: border-box;
 
+
 }
+
+.width-limiter {
+	width: 1300px;
+}
+
 /**************************************************** HEADER **********************************************/
 
 header {
 	margin:0;
 	padding:0;
 	text-align: center;
+	position:relative;
+	margin:0 auto;
 }
 
 .logo{
@@ -37,19 +45,20 @@ header {
 
 }
 .telephone{
-	margin-right: 23px;
-	margin-top: 35px;	
-	float:right;
+	position:absolute;
+	top:30px;
+	right:30px;	
+	/*float:right;*/
 
 }
 
-.telephone a{
+/*.telephone a{
 	color:red;
-}
+}*/
 
 
 .telephone a:hover{
-	background-color:red;
+	/*background-color:red;*/
 
 }
 
@@ -57,7 +66,7 @@ header {
 /********************************************  MENU  ******************************************/
 
 .menu{
-	margin:0,auto;
+	margin:0 auto;
 	text-align:center;
 	/*border:1px solid red;*/
 
@@ -98,8 +107,8 @@ header {
 /*************************************   MAIN SECTION  ****************************************/
 
 #picture{
-	width:90%;
-	margin: 20px auto 0;
+	width:1350px;
+    margin:20px auto 0;
 	height:500px;
 	background-image: url(../images/first-page.jpg);
 	background-size: cover;
@@ -107,19 +116,23 @@ header {
 
 }
 
-.main ul {
+.main ul{
 	margin:0;
 	padding:0;
 	float:right;
-	margin-top:-300px;
-	margin-right: 20px;
+	margin-top:-320px;
+	margin-right: 25px;
 
 }
 
 .main ul li{
 	list-style-type: none;
 	
+
+	
 }
+
+
 
 
 
@@ -158,9 +171,11 @@ footer{
 .social {
 	margin-top: 100px;
 	line-height: 50px;
-	margin-right: -186px;
+	margin-right: -170px;
 }
-
+.social .network{
+	margin-right: 5px;
+}
 
 
 /*************************************************      ABOUT HOTEL     ****************************************************/
@@ -168,10 +183,10 @@ footer{
 
 #picture1{
 
-	width:28%;
+	width:420px;
 	margin-top:20px;	
 	margin-left: 85px;
-	height:500px;
+	height:499px;
 	background-image: url(../images/chandelier.jpg);
 	background-size: cover;
 	background-position: left;
@@ -181,21 +196,22 @@ footer{
 
 #picture2{
 	display: block;
-	width:28%;
+	width:420px;
 	margin:0 auto;
 	margin-top:20px;
+	margin-left: 10px;
 	height:500px;
 	background-image: url(../images/hallway.jpg);
 	background-size: cover;
 	background-position: center;
 	float:left;
-	margin-left: 30px;
+	margin-left: 40px;
 
 }
 
 .text{
-	width:28%;
-	height:500px;
+	width:420px;
+	height:499px;
 	border:0.5px solid #4f4f4f;
 	float:left;
 	margin-top:20px;
@@ -210,7 +226,7 @@ footer{
 
 .text p{
 	color:#4f4f4f;
-	padding:30px;
+	padding:50px;
 
 } 
 
@@ -232,22 +248,21 @@ footer{
 }
 
 
-
-.main ul{
-	margin: 0;
-	padding: 0;
+.main #circles{
+	margin:0;
+	padding:0;
 	float:right;
-	margin-top:-180px;
-	margin-right: 20px;
+	margin-top:200px;
+	margin-right: 25px;
 
+}  
 
-}
+#telephone1{
+	top:0px;
+	right:0px;
+}  
 
-.main ul li{
-	list-style-type: none;
 	
-}
-
 
 
 /**************************************       ROOMS & SUITS         *******************************************************/
@@ -256,10 +271,10 @@ footer{
 
 #room1{
 	display:block;
-	margin-top:20px;
+	margin-top:-20px;
 	margin-left:85px;
-	width:30%;
-	height:126px;
+	width:425px;
+	height:145px;
 	background-image: url(../images/room1.jpg);
 	float:left;
 	background-size: cover;
@@ -268,10 +283,10 @@ footer{
 }
 #room2{
 	display:block;
-	margin-top:10px;
-	margin-left:85px;
-	width:30%;
-	height:126px;
+	margin-top:-20px;
+	margin-left:30px;
+	width:425px;
+	height:145px;
 	background-image: url(../images/room2.jpg);
 	float:left;
 	background-size: cover;
@@ -282,10 +297,10 @@ footer{
 
 #room3{
 	display:block;
-	margin-top:10px;
-	margin-left:85px;
-	width:30%;
-	height:126px;
+	margin-top:-20px;
+	margin-left:35px;
+	width:425px;
+	height:145px;
 	background-image: url(../images/room3.jpg);
 	float:left;
 	background-size: cover;
@@ -296,9 +311,10 @@ footer{
 #room4{
 	display:block;
 	/*margin:0 auto;*/
-	margin-top:20px;
-	width:30%;
-	height:126px;
+	margin-top:209px;
+	margin-left:85px;
+	width:425px;
+	height:145px;
 	background-image: url(../images/room4.jpg);
 	float:left;
 	background-size: cover;
@@ -307,17 +323,23 @@ footer{
 
 
 #rooms{
-	width:30%;
-	height:126px;
+	display:block;
+	width:425px;
+	height:145px;
 	margin:0 auto;
+	/*border:1px solid red;*/
+	/*text-align: center;*/
+
+
 }
 
 #room5{
 	display:block;
 	/*margin:0 auto;*/
-	margin-top:20px;
-	width:30%;
-	height:126px;
+	margin-top:15px;
+	margin-left:495px;
+	width:425px;
+	height:145px;
 	background-image: url(../images/room5.jpg);
 	float:left;
 	background-size: cover;
@@ -329,55 +351,94 @@ footer{
 #room6{
 	display:block;
 	margin:0 auto;
-	margin-top:20px;
-	width:30%;
-	height:126px;
+	margin-top:15px;
+	margin-left: 85px;
+	width:425px;
+	height:145px;
 	background-image: url(../images/room6.jpg);
 	/*float:right;*/
 	background-size: cover;
 	background-position: right;
-}
+	}
 
 #room7{
-	width:30%;
-	height:126px;
-	margin-top: 10px;
+	display:block;
+	width:425px;
+	height:146px;
+	margin-top:29px;
+	margin-left: 545px;
 	background-image: url(../images/room7.jpg);
 	/*float:left;*/
 	background-size: cover;
 	background-position: right;
 }
+	
 
 #room8{
-	width:30%;
-	height:126px;
-	margin-top: 10px;
+	display:block;
+	width:425px;
+	height:145px;
+	margin-top:-146px;
+	margin-left:1010px;
 	background-image: url(../images/room8.jpg);
 	/*float:left;*/
 	background-size: cover;
-	background-position: right bottom;
+	background-position: right;
+	
 }
+
+
+#rooms h1{
+
+	font-size: 50px;
+	color:#4f4f4f;
+	font-family: 'Baskervville', serif;	
+
+	
+}
+
+#rooms h1 span{
+	color:#eabe23;
+	font-size:80px;
+}
+
+#circle1{
+	margin-top:-320px;
+	margin-right:25px;
+}
+
 
 
 /********************************************          RESTAURANT             *********************************************/
 
 #restaurant{
-	width:45%;
+	width:650px;
 	height:500px;
 	background-image: url(../images/restaurant.jpg);
 	background-size: cover;
 	background-position: left;
 	float:left;
-	margin-top: 20px;
+	margin-top:20px;
 	margin-left:85px;
 
 } 
 
-#text1{
-	width:42%;
+
+.main #circles2{
+	margin:0;
+	padding:0;
+	float:right;
+	margin-top: 200px;
+	margin-right: 25px;
 }
 
-#text1 p{
+.main #text2{
+	width:650px;
+	height:499px;
+	margin-left: 40px;
+}
+
+.main #text2 p{
 	padding:30px 70px;	
 }
 
@@ -385,7 +446,7 @@ footer{
 /********************************************   PASTRY SHOP   ***********************************************/
 
 #cakepicture1{
-	width:28%;
+	width:420px;
 	margin-top: 20px;	
 	margin-left: 85px;
 	height:500px;
@@ -397,34 +458,36 @@ footer{
 
 }
 
-#text1{
-	width:29%;
+.main #text1{
+	width:420px;
+	height:499px;
 	background-position: center;
+	margin-left:40px;
 
 }
 
 #cakepicture2{
-	width:28%;
+	width: 420px;
 	margin-top: 20px;
 	height:500px;
 	background-image: url(../images/cake2.jpg);
 	background-size: cover;
-	background-position: right;
+	background-position:right;
 	float:right;
-	margin-right:80px;
-
-
+	margin-right:95px;
 }
+
+
 
 
 
 /********************************* SPA & WELLNESS  *****************/
 
 #spa{
-	width:43%;
+	width:660px;
 	margin-top:20px;
 	margin-left: 85px;
-	height:350px;
+	height:330px;
 	background-image: url(../images/spa.jpg);
 	background-size: cover;
 	background-position: left;
@@ -432,10 +495,10 @@ footer{
 }
 
 #bathroom{
-	width:44%;
+	width:660px;
 	margin-top:20px;
 	margin-left: 30px;
-	height:350px;
+	height:330px;
 	background-image: url(../images/bathroom.jpg);
 	background-size: cover;
 	background-position: right;
@@ -444,64 +507,17 @@ footer{
 }
 
 
-#text2{
+#text3{
 	position:relative;
-	height:150px;
-	width:1351px;
+	height:149px;
+	width:1350px;
 	margin-left:85px;
 }
 
-#text2 h1{
+#text3 h1{
 	position:absolute;
 	top:-31px;
 	left:18px;
-	font-size: 30px;
-	color:#4f4f4f;
-	font-family: 'Baskervville', serif;	
-}
-
-#text2 h1 span{
-	color:#eabe23;
-	font-size:65px;
-}
-
-#text2 p{
-	padding-top: 16px;
-	padding-left:290px;
-}
-
-
-/************************ WEDDINGS & RECEPTIONS *******************/
-
-
-#wedding{
-	width:44%;
-	margin-top:20px;
-	margin-left: 30px;
-	height:500px;
-	background-image: url(../images/wedding.jpg);
-	background-size: cover;
-	background-position: right;
-	float:left;
-
-
-}
-
-#text3{
-	position:relative;
-	width:42%;
-	margin-left: 85px;
-
-}
-
-#text3 img{
-	position:absolute;
-	top:0;
-	left:0;
-	
-}
-
-#text3 h1{
 	font-size: 30px;
 	color:#4f4f4f;
 	font-family: 'Baskervville', serif;	
@@ -513,5 +529,62 @@ footer{
 }
 
 #text3 p{
+	padding-top: 16px;
+	padding-left:290px;
+}
+
+#circle3{
+	margin-top:-150px;
+	margin-right:25px;
+}
+
+/************************ WEDDINGS & RECEPTIONS *******************/
+
+
+#wedding{
+	width:660px;
+	margin-top:20px;
+	margin-left: 30px;
+	height:500px;
+	background-image: url(../images/wedding.jpg);
+	background-size: cover;
+	background-position: right;
+	float:left;
+
+
+}
+
+#text4{
+	position:relative;
+	width:660px;
+	margin-left:85px;
+	height:499px;
+
+}
+
+#text4 img{
+	position:absolute;
+	top:0;
+	left:0;
+	
+}
+
+#text4 h1{
+	font-size: 30px;
+	color:#4f4f4f;
+	font-family: 'Baskervville', serif;	
+}
+
+#text4 h1 span{
+	color:#eabe23;
+	font-size:65px;
+}
+
+#text4 p{
 	padding-top: 70px;
 }
+
+#circle4{
+	margin-top: 200px;
+}
+
