@@ -52,16 +52,11 @@ header {
 
 }
 
-/*.telephone a{
-	color:red;
-}*/
 
-
-.telephone a:hover{
-	/*background-color:red;*/
-
+/*.telephone a:hover{
+	background-color:red;
 }
-
+*/
 
 /********************************************  MENU  ******************************************/
 
@@ -127,13 +122,8 @@ header {
 
 .main ul li{
 	list-style-type: none;
-	
-
-	
+		
 }
-
-
-
 
 
 /********************************    FOOTER   ************************/
@@ -243,7 +233,7 @@ footer{
 
 }
 
-#discover1, #discover2{
+#discover, #discover1{
 	margin-left: 180px;
 }
 
@@ -261,6 +251,7 @@ footer{
 	top:0px;
 	right:0px;
 }
+
 
 #arrow{
 	margin-top: 29px;
@@ -491,7 +482,7 @@ footer{
 	margin-right:95px;
 }
 
-#discover2{
+#discover1{
 	margin-top:-20px;
 }
 
@@ -552,8 +543,7 @@ footer{
 }
 
 #text3 p{
-	padding-top: 16px;
-	padding-left:290px;
+	padding:13px 350px;
 }
 
 #circle3{
@@ -561,9 +551,10 @@ footer{
 	margin-right:25px;
 }
 
-#discover3{
-	margin-top: -57px;
-	margin-left:1125px;
+#discover2{
+	margin-top: -65px;
+	margin-left:1100px;
+	
 }
 
 
@@ -619,12 +610,12 @@ footer{
 	margin-top: 200px;
 }
 
-#discover4{
+#discover3{
 	margin-top: -32px;
 	margin-left: 408px;
 }
 
 #arrow4{
 	margin-top: 440px;
-	margin-left: 578px;
+	margin-left: 572px;
 }
