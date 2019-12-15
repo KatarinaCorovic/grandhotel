@@ -464,6 +464,7 @@ footer{
 	background-position: center;
 	margin-left:40px;
 
+
 }
 
 #cakepicture2{
@@ -475,6 +476,10 @@ footer{
 	background-position:right;
 	float:right;
 	margin-right:95px;
+}
+
+#discover2{
+	padding-bottom:150px;
 }
 
 
